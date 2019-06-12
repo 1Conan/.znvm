@@ -7,11 +7,11 @@ local ZNVMSH_PATH="$ZNVM_PATH/znvm.sh"
 # clone znvm if not in desired location
 if [ ! -f $ZNVMSH_PATH ]; then
 	echo "installing znvm ..."
-	git clone https://github.com/Kasahs/.znvm.git $ZNVM_PATH
+	git clone https://github.com/1Conan/.znvm.git $ZNVM_PATH
 else
 	echo "znvm already installed, updating..."
 	rm -rf $ZNVM_PATH
-	git clone https://github.com/Kasahs/.znvm.git $ZNVM_PATH
+	git clone https://github.com/1Conan/.znvm.git $ZNVM_PATH
 fi
 
 # ensure zshrc exists at expected location

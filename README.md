@@ -21,7 +21,7 @@ Make sure you remove or comment out the following lines from your .zshrc file
 ### Installation - automatic
 
 ```zsh
-curl -o- https://raw.githubusercontent.com/Kasahs/.znvm/master/install.sh | zsh
+curl -o- https://raw.githubusercontent.com/1Conan/.znvm/master/install.sh | zsh
 ```
 then open new terminal or use 
 ```zsh 
